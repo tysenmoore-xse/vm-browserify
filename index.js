@@ -133,7 +133,7 @@ Script.prototype.runInContext = async function (context) {
     
     var winKeys = Object_keys(win);
 
-    var res = wEval.call(win, this.code);
+    var res = await wEval.call(win, this.code);
     
     forEach(Object_keys(win), function (key) {
         // Avoid copying circular objects like `top` and `window` by only
