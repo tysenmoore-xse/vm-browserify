@@ -1,5 +1,13 @@
 # vm-browserify
 
+---------------------------------------------------------------------------
+# Reason for fork (branch asyncEval)
+
+- Pulling in iframe reuse from [brucejo75](https://github.com/brucejo75/vm-browserify/tree/FAST)
+- Changes in an attempt to get async support in the eval (still a work in progress)
+
+---------------------------------------------------------------------------
+
 emulate node's vm module for the browser
 
 [![Build Status](https://travis-ci.org/browserify/vm-browserify.svg?branch=master)](https://travis-ci.org/browserify/vm-browserify)
